@@ -1,5 +1,70 @@
+:root {
+    --main-color: #00B074;
+    --secondary-color: #2B9BFF;
+    --light: #EFFDF5;
+    --dark: #2B3940;
+    --heebo: 'Heebo', sans-serif;
+    --inter: 'Inter', sans-serif;
+}
+
 body {
-    font-family: 'Bellota Text', sans-serif;
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--heebo);
+    background-color: var(--light);
+    /* transition: 0.4s !important; */
+}
+
+.navbar-brand {
+    height: 74px;
+}
+
+.navbar-light h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+    margin-right: 30px;
+    padding: 25px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-collapse .btn {
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+    background-color: #24BB88;
+    border-color: #24BB88;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
 }
