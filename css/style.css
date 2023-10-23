@@ -10,6 +10,7 @@
 body {
     font-family: var(--heebo);
     background-color: var(--light);
+    color: #666565;
 }
 
 .back-to-top {
@@ -291,4 +292,24 @@ body {
     background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
     background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
     background-size: 5px 5px;
+}
+
+/*------------------------------ Jobs List ------------------------------*/
+
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--main-color);
+}
+.nav-item a h6 {
+    font-weight: 700;
+}
+.job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .4s;
+}
+
+.job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
 }
