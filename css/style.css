@@ -14,10 +14,18 @@ body {
 
 .back-to-top {
     position: fixed;
-    display: none;
+    /* display: none; */
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+
+.text-primary {
+    color: var(--main-color) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
 }
 
 /*------------------------------ Buttons ------------------------------*/
@@ -256,11 +264,9 @@ body {
 /*------------------------------ Category ------------------------------*/
 .head {
     font-weight: 700;
-    font-size: calc(1.375rem + 1.5vw);
 }
 
 .cat-item {
-    color: var(--main-color);
     display: block;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     border: 1px solid transparent;
@@ -273,6 +279,16 @@ body {
 }
 
 .cat-item h6 {
-    color: var(--dark);
     font-weight: 700;
+}
+
+/*------------------------------ About Us ------------------------------*/
+
+.about-bg {
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+    background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 5px 5px;
 }
