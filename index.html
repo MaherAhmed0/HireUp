@@ -18,7 +18,7 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
-        <!-- ------------------------------------------------------- NavBar ------------------------------------------------------- -->
+        <!-- --------------------------------------- NavBar --------------------------------------- -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
                 <h1 class="m-0">HireUp</h1>
@@ -52,7 +52,7 @@
                         class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
-        <!-- ------------------------------------------------------- Carousel ------------------------------------------------------- -->
+        <!-- --------------------------------------- Carousel --------------------------------------- -->
         <main class="container-fluid p-0">
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative slide" id="slide1">
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="owl-carousel-item position-relative slide" id="slide2">
+                <!-- <div class="owl-carousel-item position-relative slide" id="slide2">
                     <img class="img-fluid" src="images/carousel-2.jpg" alt="">
                     <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                         style="background: rgba(43, 57, 64, .5);">
@@ -104,10 +104,106 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </main>
-        
+        <!-- --------------------------------------- Search --------------------------------------- -->
+        <section class="container-fluid mb-5 search">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0 rounded-0" placeholder="Keyword" />
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 rounded-0">
+                                    <option selected>Category</option>
+                                    <option value="1">Category 1</option>
+                                    <option value="2">Category 2</option>
+                                    <option value="3">Category 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0 rounded-0">
+                                    <option selected>Location</option>
+                                    <option value="1">Location 1</option>
+                                    <option value="2">Location 2</option>
+                                    <option value="3">Location 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 rounded-0 w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------------------------------- Category --------------------------------------- -->
+        <section class="container-xxl py-5">
+            <div class="container">
+                <h2 class="text-center mb-5 head">Explore By Category</h2>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-mail-bulk mb-4"></i>
+                            <h6 class="mb-3">Marketing</h6>
+                            <p class="mb-0">123 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-headset mb-4"></i>
+                            <h6 class="mb-3">Customer Service</h6>
+                            <p class="mb-0">329 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-user-tie mb-4"></i>
+                            <h6 class="mb-3">Human Resource</h6>
+                            <p class="mb-0">822 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-tasks mb-4"></i>
+                            <h6 class="mb-3">Project Management</h6>
+                            <p class="mb-0">101 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-chart-line mb-4"></i>
+                            <h6 class="mb-3">Business Development</h6>
+                            <p class="mb-0">129 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-hands-helping mb-4"></i>
+                            <h6 class="mb-3">Sales & Communication</h6>
+                            <p class="mb-0">483 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-book-reader mb-4"></i>
+                            <h6 class="mb-3">Teaching & Education</h6>
+                            <p class="mb-0">792 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a class="cat-item rounded p-4 text-decoration-none" href="#">
+                            <i class="fa fa-3x fa-drafting-compass mb-4"></i>
+                            <h6 class="mb-3">Design & Creative</h6>
+                            <p class="mb-0">543 Vacancy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
     </div> <!-- container-xxl -->
