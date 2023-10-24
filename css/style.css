@@ -338,3 +338,86 @@ body {
     border-color: var(--main-color);
     background-color: var(--dark);
 }
+
+/*------------------------------ Footer ------------------------------*/
+
+.footer {
+    background-color: var(--dark);
+}
+
+.footer .btn.btn-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+}
+
+.footer .form-control {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    transition: .4s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--main-color);
+    border-color: var(--light);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+    font-weight: 400;
+}
+
+.footer .copyright a {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
