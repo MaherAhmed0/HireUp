@@ -11,6 +11,7 @@ body {
     font-family: var(--heebo);
     background-color: var(--light);
     color: #666565;
+    overflow-x: hidden;
 }
 
 .back-to-top {
@@ -299,9 +300,11 @@ body {
 .nav-pills .nav-item .active {
     border-bottom: 2px solid var(--main-color);
 }
+
 .nav-item a h6 {
     font-weight: 700;
 }
+
 .job-item {
     border: 1px solid transparent;
     border-radius: 2px;
@@ -312,4 +315,26 @@ body {
 .job-item:hover {
     border-color: rgba(0, 0, 0, .08);
     box-shadow: none;
+}
+
+/*------------------------------ Testimonials ------------------------------*/
+
+.testimonials .center {
+    background: var(--main-color) !important;
+    color: #FFFFFF !important;
+}
+
+.dots-sq a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background-color: var(--light);
+    border: 5px solid var(--main-color);
+    border-radius: 2px;
+}
+
+.dots-sq .active {
+    border-color: var(--main-color);
+    background-color: var(--dark);
 }
